@@ -56,5 +56,26 @@ Use reduce to calculate total expenses.
 
 Decorate processing functions for logging or validation.
 
+
+Sample Output:
+yaml
+CopyEditExecuting: summarize_expenses
+Category: All | Total Expenses: $895
+Details:
+- 2025-05-01 | Groceries | $250
+- 2025-05-02 | Transport | $120
+- 2025-05-01 | Rent | $300
+- 2025-05-03 | Entertainment | $75
+- 2025-05-03 | Transport | $50
+- 2025-05-04 | Groceries | $100
+Completed in 0.0003 seconds
+ 
+Executing: summarize_expenses
+Category: Transport | Total Expenses: $170
+Details:
+- 2025-05-02 | Transport | $120
+- 2025-05-03 | Transport | $50
+Completed in 0.0002 seconds
+
 Output daily, weekly, or category-wise summaries.
 
